@@ -1004,6 +1004,8 @@ figure {
 }
 .colorlib-blog > a img {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 @media screen and (max-width: 768px) {
     .colorlib-blog {
