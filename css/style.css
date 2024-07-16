@@ -929,6 +929,13 @@ figure {
     color: #fff;
     margin-bottom: 30px !important;
 }
+
+@media (max-width: 772px) {
+    #colorlib-started .colorlib-heading h2 {
+        font-size: 35px;
+    }
+}
+
 #colorlib-started .colorlib-heading p {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -1050,6 +1057,16 @@ figure {
 }
 .colorlib-blog .blog-text h3 a {
     color: black;
+}
+
+@media (max-width: 772px) {
+    #index-email {
+        display: block;
+        width: 250px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
 }
 
 #colorlib-footer {
